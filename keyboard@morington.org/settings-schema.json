@@ -1,0 +1,46 @@
+{
+    "layout1": {
+        "type": "layout",
+        "pages": ["page1"],
+        "page1": {
+            "type": "page",
+            "title": "General",
+            "sections": ["section1"]
+        },
+        "section1": {
+            "type": "section",
+            "title": "General Settings",
+            "keys": [
+                "language-prefix",
+                "margin-width",
+                "margin-height"
+            ]
+        }
+    },
+    "language-prefix" : {
+        "type": "entry",
+        "default": "Language: ",
+        "description": "Position opposite width",
+        "tooltip": "Position opposite width"
+    },
+    "margin-width": {
+        "type": "spinbutton",
+        "default": 1,
+        "min" : 0,
+        "max" : 2000,
+        "step" : 5,
+        "units" : "pixels",
+        "description": "Position opposite width",
+        "tooltip": "Position opposite width"
+    },
+    "margin-height": {
+        "type": "spinbutton",
+        "default": 1,
+        "min" : 0,
+        "max" : 2000,
+        "step" : 5,
+        "units" : "pixels",
+        "description": "Position opposite height",
+        "tooltip": "Position opposite height"
+    }
+}
