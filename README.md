@@ -51,7 +51,7 @@ mv keyboard@morington.org ~/.local/share/cinnamon/applets/
 
 ### Дополнительно
 
-Чтобы не искать откуда берутся иконки, они берутся по этому пути:
+Чтобы не искать где лежат иконки, они расположены здесь:
 ```js
 const getFlagFileName = name => `/usr/share/iso-flag-png/${name}.png`;
 ```
