@@ -15,21 +15,21 @@
 
 1. Клонируйте репозиторий:
 
-   ```bash
-   git clone https://github.com/morington/Cinnamon-Keyboard-Applet.git
-   ```
+```bash
+git clone https://github.com/morington/Cinnamon-Keyboard-Applet.git
+```
 
 2. Перейдите в директорию с клонированным репозиторием:
 
-    ```bash
-    cd Cinnamon-Keyboard-Applet
-    ```
+```bash
+cd Cinnamon-Keyboard-Applet
+```
 
 3. Перенесите директорию `keyboard@morington.org` в `applets`:
 
-    ```bash
-    mv keyboard@morington.org ~/.local/share/cinnamon/applets/
-    ```
+```bash
+mv keyboard@morington.org ~/.local/share/cinnamon/applets/
+```
 
 ### Ручная установка 
 
@@ -42,20 +42,20 @@
 
 После установки вы можете настроить апплет через интерфейс настроек Cinnamon: 
 
-    1. Правый клик на панели -> "Настройки апплетов".
-    2. Найдите и выберите апплет "Keyboard" (или "Keyboard @ morington.org").
-    3. Настройте следующие параметры:
-        `Language Prefix` : Префикс текста уведомления (по умолчанию "Language: ").
-        `Margin Width` : Горизонтальное смещение уведомления (в пикселях).
-        `Margin Height` : Вертикальное смещение уведомления (в пикселях).
+1. Правый клик на панели -> "Настройки апплетов".
+2. Найдите и выберите апплет "Keyboard" (или "Keyboard @ morington.org").
+3. Настройте следующие параметры:
+`Language Prefix` : Префикс текста уведомления (по умолчанию "Language: ").
+`Margin Width` : Горизонтальное смещение уведомления (в пикселях).
+`Margin Height` : Вертикальное смещение уведомления (в пикселях).
 
 ### Дополнительно
 
-    Чтобы не искать откуда берутся иконки, они берутся по этому пути:
-    ```js
-    const getFlagFileName = name => `/usr/share/iso-flag-png/${name}.png`;
-    ```
-    К примеру: `/usr/share/iso-flag-png/ru.png`. Можно менять их самостоятельно, просто загрузите нужный `png`.
+Чтобы не искать откуда берутся иконки, они берутся по этому пути:
+```js
+const getFlagFileName = name => `/usr/share/iso-flag-png/${name}.png`;
+```
+К примеру: `/usr/share/iso-flag-png/ru.png`. Можно менять их самостоятельно, просто загрузите нужный `png`.
 
 ### Лицензия 
 
